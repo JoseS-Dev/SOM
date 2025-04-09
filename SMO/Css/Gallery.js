@@ -1,4 +1,4 @@
-import { StyleSheet } from "react-native";
+import {StyleSheet } from "react-native";
 export const StylesGallery = StyleSheet.create({
     ContainerGallery:{
         flex: 1,
@@ -9,11 +9,12 @@ export const StylesGallery = StyleSheet.create({
     ContainerMain: {
         width: '100%',
         height: '100%',
-        alignItems: 'center',
+        borderColor: '#aaa',
+        borderWidth: 1,
     },
     ContainerGalleryHeader:{
-        borderColor: '#fff',
-        borderWidth: 2,
+        borderBottomColor: '#aaa',
+        borderBottomWidth: 1,
         width: '100%',
         height: '5%',
         paddingHorizontal: 5,
@@ -32,35 +33,28 @@ export const StylesGallery = StyleSheet.create({
         height: 40,
         resizeMode: 'cover'
     },
-    ContainerImages: {
-        borderColor: '#fff',
-        borderWidth: 1,
-        width: '100%',
-        height: '95%',
-        flexDirection: 'row',
-        flexWrap: 'wrap',
-        justifyContent: 'center'
-    },
     ContainerImage: {
         width: '100%',
-        height: 120,
-        padding: 2,
+        height: 150,
         alignItems: 'center',
-        gap: 3
+        flexDirection: 'row',
+        justifyContent: 'center',
+        gap: 10,
+        
     },
     ImageContainer: {
         borderColor: '#ddaa',
         borderWidth: 1,
         borderRadius: 10,
-        width: '100%',
+        width: '45%',
         height: '85%',
         resizeMode: 'cover'
     },
     ButtonImage: {
         borderColor: '#ddaa',
         borderWidth: 1,
-        width: '65%',
-        height: '15%',
+        width: '45%',
+        height: '25%',
         justifyContent: 'center',
         alignItems: 'center',
         borderRadius: 15,
@@ -72,6 +66,43 @@ export const StylesGallery = StyleSheet.create({
         fontWeight: '500',
         color: '#eee',
 
+    },
+    ModalContainer: {
+        borderColor: '#aaa',
+        borderWidth: 1,
+        flex: 1,
+        width: '100%',
+        backgroundColor: '#111',
+        alignItems: 'center',
+        padding: 5,
+        gap: 105
+    },
+    ContainerModalImagen: {
+        borderColor: '#ddaa',
+        borderWidth: 1,
+        borderRadius: 5,
+        width: '100%',
+        height: '65%'
+    },
+    ModalImage: {
+        width: '100%',
+        height: '100%'
+    },
+    ModalButton: {
+        borderColor: '#fff',
+        borderWidth: 1,
+        width: '40%',
+        height: '5%',
+        justifyContent: 'center',
+        alignItems: 'center',
+        borderRadius: 10,
+        backgroundColor: '#222',
+    },
+    ModalText: {
+        fontSize: 15,
+        fontWeight: '500',
+        color: '#eee',
+        letterSpacing: 1,
     }
 
 })

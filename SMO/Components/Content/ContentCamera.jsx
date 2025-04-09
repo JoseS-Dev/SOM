@@ -8,7 +8,7 @@ import { Link } from 'expo-router';
 export function ContentCamera() {
     const [hasPermission, setHasPermission] = useState(null);
     const [type, setType] = useState(Camera.Constants.Type.back);
-    const [listImage, setListaImage] = useState([]); // Cambié el nombre a listImage para seguir la convención
+    const [listImage, setListaImage] = useState([]); 
     const [cameraRef, setCameraRef] = useState(null);
 
     useEffect(() => {
