@@ -4,7 +4,9 @@
     "slug": "SMO",
     "version": "1.0.0",
     "orientation": "portrait",
+    "scheme": "SMO-Simulate",
     "icon": "./assets/icon.png",
+    "SdkVersion": "50.0.17",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
