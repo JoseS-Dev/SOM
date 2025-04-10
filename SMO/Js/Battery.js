@@ -55,7 +55,7 @@ export function useBattery() {
                 
                 return newLevel;
             });
-        }, 5000);
+        }, 10000);
 
         return () => clearInterval(decreaseBattery);
     }, []);

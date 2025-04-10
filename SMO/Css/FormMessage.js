@@ -4,6 +4,7 @@ export const stylesFormMessage = StyleSheet.create({
         backgroundColor: '#111',
         width: '100%',
         height: '100%',
+        paddingHorizontal: 10,
     },
     ContainerTitle: {
         borderBottomColor: '#333',
@@ -27,7 +28,7 @@ export const stylesFormMessage = StyleSheet.create({
     },
     ContainerMessage: {
         width: '100%',
-        height: '80%',
+        height: '70%',
         borderLeftColor: '#333',
         borderRightColor: '#333',
         borderBottomColor: '#333',

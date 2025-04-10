@@ -29,10 +29,9 @@ export const StylesStructureMessage = StyleSheet.create({
         fontSize: 14,
         fontWeight: '500',
         color: '#aaa',
-        maxWidth: '80%',
+        maxWidth: 330,
     },
     Pressable: {
-        
         paddingRight: 5,
         justifyContent: 'center',
         alignItems: 'center',

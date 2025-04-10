@@ -1,13 +1,41 @@
 import { StyleSheet } from "react-native";
 export const StylesCalendar = StyleSheet.create({
-    ContainerCalendar:{
+    Container: {
         flex: 1,
-        justifyContent: 'center',
+        backgroundColor: '#111',
         alignItems: 'center',
-        backgroundColor: '#E0E0E0'
     },
-    TextCalendar:{
-        fontSize: 20,
-        color: '#000000'
+    ContainerCalendar:{
+        width: '100%',
+        height: '100%',
+        paddingHorizontal: 10,
+    },
+    ContainerHeader:{
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        
+        width: '100%',
+        height: '5%',
+        paddingHorizontal: 5
+    },
+    TextHeader: {
+        fontSize: 18,
+        letterSpacing: 2,
+        color: '#eee',
+        fontWeight: '500'
+    },
+    ImageHeader: {
+        width: 35,
+        height: 35,
+        resizeMode: 'contain',
+    },
+    Calendar: {
+        height: '65%',
+        backgroundColor: 'transparent',
+        width: '100%',
+        
+        
+        
     }
 })

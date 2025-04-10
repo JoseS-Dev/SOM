@@ -1,9 +1,6 @@
 import { StyleSheet } from "react-native";
 export const StylesAplicationsBottom = StyleSheet.create({
     ContainerMain: {
-        borderWidth: 1,
-        borderRightColor: '#333',
-        borderRightWidth: 1,
         width: '55%',
         height: '100%',
         padding: 10,
