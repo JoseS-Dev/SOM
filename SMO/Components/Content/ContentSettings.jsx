@@ -33,7 +33,7 @@ export function ContentSettings(){
                             <Image style={stylesSettings.ImagePressable} source={require('../../assets/Settings/Memory.png')}/>
                         </Pressable>
                     </Link>
-                    <Link href='/ConfigBattery' asChild>
+                    <Link href='/Battery' asChild>
                         <Pressable style={stylesSettings.ContainerPressable}>
                             <Text style={stylesSettings.textPressable}>Bateria</Text>
                             <Image style={stylesSettings.ImagePressable} source={require('../../assets/Settings/Battery.png')}/>

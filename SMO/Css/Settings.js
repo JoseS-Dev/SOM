@@ -11,8 +11,8 @@ export const stylesSettings = StyleSheet.create({
         alignItems: 'center'
     },
     ContainerTitle: {
-        borderColor: '#fff',
-        borderWidth: 1,
+        borderBottomColor: '#aaa',
+        borderBottomWidth: 1,
         width: '100%',
         height: '5%',
         paddingHorizontal: 10,
@@ -33,8 +33,7 @@ export const stylesSettings = StyleSheet.create({
         resizeMode: 'cover'
     },
     ContainerOptions: {
-        borderColor: '#fff',
-        borderWidth: 1,
+        
         width: '100%',
         height: '95%',
         alignItems: 'center',
@@ -42,8 +41,7 @@ export const stylesSettings = StyleSheet.create({
         gap: 10
     },
     ContainerImage: {
-        borderColor: '#fff',
-        borderWidth: 1,
+        
         width: '100%',
         height: '40%',
         flexDirection: 'row',
@@ -53,7 +51,7 @@ export const stylesSettings = StyleSheet.create({
         paddingHorizontal: 15
     },
     ImageContainer: {
-        borderColor: '#fff',
+        borderColor: '#ddaa',
         borderWidth: 1,
         width: '50%',
         height: '65%',
@@ -68,7 +66,7 @@ export const stylesSettings = StyleSheet.create({
         letterSpacing: 1,
     },
     ContainerPressable: {
-        borderColor: '#fff',
+        borderColor: '#999',
         borderWidth: 1,
         width: '100%',
         height: '11%',
